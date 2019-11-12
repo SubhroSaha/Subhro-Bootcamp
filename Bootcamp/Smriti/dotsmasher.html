@@ -1,0 +1,33 @@
+
+<html>
+<head>
+	<title>dotSmasher Game</title>
+<link rel="stylesheet" href="dotSmasher.css" />
+<script src="dotSmasher.js"></script>
+</head>
+<body onLoad="setGameAreaBounds()" onresize="setGameAreaBounds()">
+<div id="scoreLabel"> Score:0 Level:1
+</div>
+<div id="pageTitle">DotSmasher
+<div id="controls" style="font-size: 9pt;">
+
+<input type="button" value="Pause" onclick="pause()" name="pause" id="pause"/>
+
+<input type="button" value="level 1" onclick="levelUp(1)" name="Button1" id="Button1"/>
+
+<input type="button" value="Level 2" onclick="levelUp(2)" name="Button2" id="Button2"/>
+
+<input type="button" value="Level 3" onclick="levelUp(3)" name="Button3" id="Button3"/>
+</div>
+<div id="gameArea">
+	<button id="dot" onclick="myfunction()">
+	</button>
+	
+</div>
+</div>
+</body>
+</html>
+
+
+
+

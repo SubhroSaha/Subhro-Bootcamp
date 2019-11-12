@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Program</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>First Gen Pokemon Chart</h1>
+	<table border="1">
+		<thead>
+			 <tr>
+			 	<th>Image</th>
+			 	<th>Name</th>
+			 	<th>Type</th>
+			 	<th>Evolves Into</th>
+			 </tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><img width="50" src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"></td>
+				<td>Bulbasaur</td>
+				<td>Grass/Poison</td>
+				<td><a href="http://pokemon.wikia.com/wiki/Ivysaur">Ivysaur</a></td>
+			</tr>
+			<tr>
+				<td><img width="50" src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"></td>
+				<td>Charmander</td>
+				<td>Fire</td>
+				<td><a href="	http://pokemon.wikia.com/wiki/Charmeleon">Charmeleon</a></td>
+			</tr>
+			<tr>
+				<td><img width="50" src="http://img1.wikia.nocookie.net/__cb20140328191525/pokemon/images/thumb/3/39/007Squirtle.png/200px-007Squirtle.png"></td>
+				<td>Squirtle</td>
+				<td>Water</td>
+				<td><a href="	http://pokemon.wikia.com/wiki/Wartortle">Wartortle</a></td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<h1>Register</h1>
+	<form>
+		<label>First Name:
+		<input type="text" name="firstname" placeholder="John" required>
+		</label>
+		<label>Last Name:
+		<input type="text" name="lastname" placeholder="Doe" required>
+		</label>
+
+		<br>
+		<label>Gender:</label>
+		<label>Male
+		<input type="radio" name="gender" value="male">
+		</label>
+		<label>Female
+		<input type="radio" name="gender" value="female">
+		</label>
+		<label>Other
+		<input type="radio" name="gender" value="other">
+		</label>
+		
+		<br>
+		<label>Email:
+		<input type="email" name="email" placeholder="your email" required>
+		</label>
+		<label>Password:
+		<input type="password" name="password" pattern=".{5,10}" required title="5 to 10 characters">
+		</label>
+		<br>
+		<label>Birthday:</label>
+		<select value="day">
+			<option value='0'>Day</option>
+			<option value='1'>1</option>
+			<option value='2'>2</option>
+			<option value='3'>3</option>
+			<option value='4'>4</option>
+			<option value='5'>5</option>
+			<option value='6'>6</option>
+			<option value='7'>7</option>
+			<option value='8'>8</option>
+			<option value='9'>9</option>
+			<option value='10'>10</option>
+			<option value='11'>11</option>
+			<option value='12'>12</option>
+			<option value='13'>13</option>
+			<option value='14'>14</option>
+			<option value='15'>15</option>
+			<option value='16'>16</option>
+			<option value='17'>17</option>
+			<option value='18'>18</option>
+			<option value='19'>19</option>
+			<option value='20'>20</option>
+			<option value='21'>21</option>
+			<option value='22'>22</option>
+			<option value='23'>23</option>
+			<option value='24'>24</option>
+			<option value='25'>25</option>
+			<option value='26'>26</option>
+			<option value='27'>27</option>
+			<option value='28'>28</option>
+			<option value='29'>29</option>
+			<option value='30'>30</option>
+			<option value='31'>31</option>
+		</select>
+		<select>
+			<option value='0'>Month</option>
+			<option value='1'>Jan</option>
+			<option value='2'>Feb</option>
+			<option value='3'>Mar</option>
+			<option value='4'>Apr</option>
+			<option value='5'>May</option>
+			<option value='6'>June</option>
+			<option value='7'>July</option>
+			<option value='8'>Aug</option>
+			<option value='9'>Sep</option>
+			<option value='10'>Oct</option>
+			<option value='11'>Nov</option>
+			<option value='12'>Dec</option>
+		</select>
+		<select>
+			<option value='0'>Year</option>
+			<option value='1980'>1980</option>
+			<option value='1981'>1981</option>
+			<option value='1982'>1982</option>
+			<option value='1983'>1983</option>
+			<option value='1984'>1984</option>
+			<option value='1985'>1985</option>
+			<option value='1986'>1986</option>
+			<option value='1987'>1987</option>
+			<option value='1988'>1988</option>
+			<option value='1989'>1989</option>
+			<option value='1990'>1990</option>
+			<option value='1991'>1991</option>
+			<option value='1992'>1992</option>
+			<option value='1993'>1993</option>
+		</select>
+		<br>
+		<label>I agree to the terms and conditions</label>
+		<input type="radio" name="terms">
+		<br>
+		<input type="submit">
+
+	</form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="utf-8">
+ <title>LAB1 2 HTML & JAVASCRIPT</title>
+<script>
+function calculate() {
+var payrate, hours, totalpay, deduction; 
+payrate=parseFloat (prompt ("Enter Pay Rate:"));
+hours=parseFloat (prompt ("Enter Hours :"));
+totalpay=payrate*hours;
+deduction=0.25*(payrate*hours);
+window.alert ("The Total Pay is : "+ totalpay + " " + " and the Deduction is : "+ deduction);
+}
+</script> 
+ 
+</head>
+<center>
+<body bgcolor="grey">
+<h1><font color="blue">Pay rate and deduction</font><h1>
+<p><h2>Click the button below to get started </h2></p>
+<input type="button" style="border-radius:8px; border: 0; width:150px; height: 50px; font-family: Tahoma; font-weight: bold; font-size: 16pt; background: green;" value= "start" onclick ="calculate();"/>
+
+</center>
+<body>
+<html>
